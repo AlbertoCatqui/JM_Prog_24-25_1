@@ -33,7 +33,6 @@ public class E2_2_AreasFiguras {
                 out = false;
             } else {
                 System.out.println("Número equivocado.");
-                continue;
             }
         }
     }
