@@ -38,7 +38,7 @@ public class E2_2_AreasFiguras {
                 System.out.println("El área del círculo es: " + (radiusC * radiusC) * Math.PI + "cm²");
                 out = false;
             } else {
-                System.out.println("Número equivocado. ");
+                System.out.println("Número equivocado.");
             }
         }
     }
