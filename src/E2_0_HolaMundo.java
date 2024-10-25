@@ -4,7 +4,7 @@ public class E2_0_HolaMundo {
     public static void main(String[] args) {
         /*
         System.out.println("Hola Mundo actualización");
-        byte entero1 = 1;
+        byte entero1 = 1 ;
         short entero2 = 2;
         int entero3 = 3;
         long entero4 = 4;
