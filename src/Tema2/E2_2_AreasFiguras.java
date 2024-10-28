@@ -35,7 +35,7 @@ public class E2_2_AreasFiguras {
                 System.out.println("Has elegido círculo");
                 System.out.println("intoduce el radio en cm:");
                 double radiusC = sc.nextDouble();
-                System.out.println("El área del círculo es: " + (radiusC * radiusC) * Math.PI + "cm²");
+                System.out.println("El área del círculo es: " + ((radiusC * radiusC) * Math.PI) + "cm²");
                 out = false;
             } else {
                 System.out.println("Número equivocado.");
