@@ -14,3 +14,4 @@ public class E2_2_PrecioDescuento {
         System.out.println("El porcentaje de descuento aplicado es de un " + (1 - discount) * 100 + " % de descuento.");
     }
 }
+
