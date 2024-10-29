@@ -15,7 +15,7 @@ public class E2_2_MayorEdad {
                 System.out.println("Eres menor de edad");
                 break;
             } else if (edad > 115 || edad < 1) {
-                System.out.println("No mientas.");
+                System.out.println("No me cuadra");
             }
         }
     }
