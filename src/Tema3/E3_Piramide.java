@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class E3_Piramide {
     public static void main(String[] args) {
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce número de filas");
         int pin = sc.nextInt();
@@ -18,7 +19,7 @@ public class E3_Piramide {
 
             }
             System.out.println();
-        }
+        }*/
 
     }
 }
