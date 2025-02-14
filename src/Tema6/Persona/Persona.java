@@ -1,10 +1,10 @@
 package Tema6.Persona;
 
 public class Persona {
-    String nombre;
-    String apellido;
-    String locNacimiento;
-    int edad;
+    private String nombre;
+    private String apellido;
+    private String locNacimiento;
+    private int edad;
 
     public Persona(String nombre, String apellido) {
         this.nombre = nombre;
@@ -14,4 +14,18 @@ public class Persona {
     void saludar(){}
     boolean decirMayorEdad(){return false;}
 
+    public boolean decirMayorEdad(int edad){
+        if (edad > 18){
+            return true;
+        }
+        return false;
+    }
+
+    public String getLocNacimiento() {
+        return locNacimiento;
+    }
+
+    public void setLocNacimiento(String locNacimiento) {
+        this.locNacimiento = locNacimiento;
+    }
 }
