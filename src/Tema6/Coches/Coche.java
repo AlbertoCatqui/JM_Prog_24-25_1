@@ -5,7 +5,7 @@ public class Coche {
     private int velocidad;
 
     public Coche() {
-        this.velocidad = 0;
+        velocidad = 0;
     }
 
     public void acelera(int i) {
