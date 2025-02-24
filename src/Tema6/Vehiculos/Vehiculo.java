@@ -7,7 +7,7 @@ public class Vehiculo {
     private static int kilometrosTotales;
     private static int vehiculosCreados;
 
-    Vehiculo(String marca, String color) {
+    public Vehiculo(String marca, String color) {
         this.marca = marca;
         this.color = color;
         vehiculosCreados++;
@@ -15,8 +15,12 @@ public class Vehiculo {
 
     public void moverse() {
         System.out.println("El vehiculo se mueve");
-        kilometrosTotales = kilometrosTotales + 10;
         KilometrosRecorridos = KilometrosRecorridos + 10;
+        this.moverseTotal();
+    }
+
+    public static void moverseTotal() {
+        kilometrosTotales = kilometrosTotales + 10;
     }
 
     public static int getVehiculosCreados() {
