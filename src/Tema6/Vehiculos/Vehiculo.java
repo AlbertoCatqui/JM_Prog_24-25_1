@@ -1,11 +1,11 @@
 package Tema6.Vehiculos;
 
 public class Vehiculo {
-    private String marca;
-    private String color;
-    private int KilometrosRecorridos;
-    private static int kilometrosTotales;
-    private static int vehiculosCreados;
+    protected String marca;
+    protected String color;
+    protected int KilometrosRecorridos;
+    protected static int kilometrosTotales;
+    protected static int vehiculosCreados;
 
     Vehiculo(String marca, String color) {
         this.marca = marca;

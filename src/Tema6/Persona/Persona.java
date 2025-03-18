@@ -9,13 +9,18 @@ public class Persona {
     public Persona(String nombre, String apellido) {
         this.nombre = nombre;
         this.apellido = apellido;
+        System.out.println("Persona " + this.nombre + " creada");
     }
 
-    void saludar(){}
-    boolean decirMayorEdad(){return false;}
+    void saludar() {
+    }
 
-    public boolean decirMayorEdad(int edad){
-        if (edad > 18){
+    boolean decirMayorEdad() {
+        return false;
+    }
+
+    public boolean decirMayorEdad(int edad) {
+        if (edad > 18) {
             return true;
         }
         return false;
