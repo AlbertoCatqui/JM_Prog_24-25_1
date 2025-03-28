@@ -9,6 +9,7 @@ public class Piefon extends Telefono {
     }
 
     @Override
-    public void llamar() {
+    public void Llamar() {
+        System.out.println("Tal");
     }
 }

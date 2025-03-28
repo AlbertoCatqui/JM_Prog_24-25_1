@@ -6,7 +6,7 @@ public class Telefono {
     String color;
     int precio;
     int contador1;
-    int  contadorGlobal;
+    static int contadorGlobal;
     Linterna lint;
 
     public void Llamar() {
